@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <form id="surveyForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" required>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" required>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+    
+    <label for="country">Country:</label>
+    <select id="country" required>
+      <option value="">Select a country</option>
+      <!-- Add options for different countries -->
+    </select>
+    
+    <label>Gender:</label>
+    <input type="checkbox" id="maleCheckbox">
+    <label for="maleCheckbox">Male</label>
+    <input type="checkbox" id="femaleCheckbox">
+    <label for="femaleCheckbox">Female</label>
+    
+    <label for="profession">Profession:</label>
+    <input type="text" id="profession" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" required>
+    
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>
